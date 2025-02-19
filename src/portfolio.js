@@ -45,30 +45,24 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I play with data, build cool dashboards, and optimize cloud pipelines!",
+  subTitle:
+    "I play with data, build cool dashboards, and optimize cloud pipelines!",
   skills: [
-    emoji(
-      "⚡Building robust ETL pipelines with AWS and Python "
-    ),
+    emoji("⚡Building robust ETL pipelines with AWS and Python "),
     emoji("⚡  Designing and deploying scalable cloud-based storage solutions"),
-    emoji(
-      "⚡ Creating predictive models and analytics dashboards"
-    )
-
+    emoji("⚡ Creating predictive models and analytics dashboards")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-
-
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "Terraform", fontAwesomeClassname: "fas fa-cloud" },
-    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line" },
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "Terraform", fontAwesomeClassname: "fas fa-cloud"},
+    {skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line"},
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -77,7 +71,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -104,14 +98,14 @@ const educationInfo = {
       logo: require("./assets/images/uhLogo.png"),
       subHeader: "Master's degree in Data Science (CGPA: 3.96/4)",
       duration: "Jan 2023 - Dec 2024",
-      desc: "Coursework: Big Data Analytics, Databases, Data Mining, Machine Learning",
+      desc: "Coursework: Big Data Analytics, Databases, Data Mining, Machine Learning"
     },
     {
       schoolName: "Institute of Aeronautical Engineering",
       logo: require("./assets/images/iareLogo.png"),
       subHeader: "B.Tech in Computer Science and Engineering (GPA: 9.22/10)",
       duration: "June 2018 - June 2022",
-      desc: "Coursework: Cloud Computing, DSA, Data Warehousing, Web Technologies",
+      desc: "Coursework: Cloud Computing, DSA, Data Warehousing, Web Technologies"
     }
   ]
 };
@@ -121,36 +115,34 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
-
-    
-      {
-        Stack: "SQL",
-        progressPercentage: "95%"
-      },
-      {
-        Stack: "Python",
-        progressPercentage: "90%"
-      },
-      {
-        Stack: "AWS",
-        progressPercentage: "95%"
-      },
-      {
-        Stack: "ETL Pipelines",
-        progressPercentage: "80%"
-      },
-      {
-        Stack: "Machine Learning",
-        progressPercentage: "85%"
-      },
-      {
-        Stack: "Tableau",
-        progressPercentage: "90%"
-      },
-      {
-        Stack: "Terraform",
-        progressPercentage: "85%"
-      },  
+    {
+      Stack: "SQL",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "Python",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "AWS",
+      progressPercentage: "95%"
+    },
+    {
+      Stack: "ETL Pipelines",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Machine Learning",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Tableau",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Terraform",
+      progressPercentage: "85%"
+    },
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
@@ -162,7 +154,7 @@ const techStack = {
 // Work experience section
 
 const workExperience = {
-  display: true, 
+  display: true,
   experience: [
     {
       role: "Research Assistant",
@@ -170,29 +162,23 @@ const workExperience = {
       companylogo: require("./assets/images/uhLogo.png"),
       date: "Jan 2023 – Dec 2024",
       desc: "Designed scalable data pipelines using Python and AWS, improving efficiency by 25%. Developed predictive models for student success initiatives, boosting accuracy by 15%."
-      
     },
     {
-
       role: "Cloud Data Engineer",
       company: "Capgemini",
       companylogo: require("./assets/images/capgLogo.png"),
       date: "Mar 2022 – Dec 2022",
       desc: "Built ETL pipelines with AWS Glue, Python, and Apache Spark, improving data processing efficiency by 30%. Designed AWS-based data lakes for optimized data storage and querying, reducing query execution time by 25%."
-     
     },
     {
       role: "Data Analyst Intern",
       company: "Virtusa",
       companylogo: require("./assets/images/virtusaLogo.png"),
       date: "Oct 2021 – Mar 2022",
-      desc: "Performed market basket analysis using SQL and Python, increasing sales performance by 25%. Created interactive dashboards in Tableau for marketing insights, improving campaign ROI by 20%.",
-    },
-    
+      desc: "Performed market basket analysis using SQL and Python, increasing sales performance by 25%. Created interactive dashboards in Tableau for marketing insights, improving campaign ROI by 20%."
+    }
   ]
 };
-
-
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -201,7 +187,6 @@ const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc
@@ -212,8 +197,6 @@ const achievementSection = {
     "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-
-    
     {
       title: "AWS Certified Solutions Architect – Associate",
       subtitle:
@@ -234,40 +217,43 @@ const achievementSection = {
       image: require("./assets/images/infosysLogo.png"),
       imageAlt: "Infosys Logo",
       footerLink: [
-        {name: "Certification",
-           url: "https://infytq.onwingspan.com/public-assets/Infosys-Certified-Software-Programmer_2022/f194fc2e-2d83-4006-82f7-9f14740212ab.pdf"},
-        
+        {
+          name: "Certification",
+          url: "https://infytq.onwingspan.com/public-assets/Infosys-Certified-Software-Programmer_2022/f194fc2e-2d83-4006-82f7-9f14740212ab.pdf"
+        }
       ]
     },
 
     {
       title: "Getting started with AWS machine learning",
-      subtitle: "Certification validating Amazon Web Services (AWS) to build and deploy machine learning models.",
+      subtitle:
+        "Certification validating Amazon Web Services (AWS) to build and deploy machine learning models.",
       image: require("./assets/images/awsLogo.png"),
       imageAlt: "Infosys Logo",
       footerLink: [
-        {name: "Certification",
-           url: "https://www.coursera.org/account/accomplishments/verify/VLWAN6TFWG2H"},
-        
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/VLWAN6TFWG2H"
+        }
       ]
     },
 
     {
       title: "Responsive Web Design",
-      subtitle: "Certification validating understanding of web development, including HTML, CSS, and responsive web design. ",
+      subtitle:
+        "Certification validating understanding of web development, including HTML, CSS, and responsive web design. ",
       image: require("./assets/images/fccLogo.png"),
       imageAlt: "Frecode camp Logo",
       footerLink: [
-        {name: "Certification",
-           url: "https://www.coursera.org/account/accomplishments/verify/VLWAN6TFWG2H"},
-      
-        
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/VLWAN6TFWG2H"
+        }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Some big projects you have worked on
 
@@ -277,21 +263,24 @@ const bigProjects = {
   projects: [
     {
       projectName: "Topic Modeling",
-      projectDesc: "Developed an LDA model to analyze 1,620 newspaper articles, optimizing perplexity and coherence scores to extract key themes. Applied text preprocessing techniques, including tokenization, stopword removal, and TF-IDF vectorization, to enhance model performance by providing insights into emerging trends in media.",
+      projectDesc:
+        "Developed an LDA model to analyze 1,620 newspaper articles, optimizing perplexity and coherence scores to extract key themes. Applied text preprocessing techniques, including tokenization, stopword removal, and TF-IDF vectorization, to enhance model performance by providing insights into emerging trends in media."
     },
     {
       projectName: "Three-Tier VPC Deployment",
-      projectDesc: "Designed and implemented a scalable AWS VPC using Terraform, ensuring 99.99% uptime across multiple availability zones. Integrated security best practices, including private subnets, NAT gateways, and IAM policies, to enhance data protection. Automated infrastructure deployment reduced provisioning time by 40%.",
+      projectDesc:
+        "Designed and implemented a scalable AWS VPC using Terraform, ensuring 99.99% uptime across multiple availability zones. Integrated security best practices, including private subnets, NAT gateways, and IAM policies, to enhance data protection. Automated infrastructure deployment reduced provisioning time by 40%."
     },
     {
       projectName: "Ensemble Machine Learning Model",
-      projectDesc: "Collaborated in a team of 4 to implement ensemble modeling with 20 models for dry bean classification. Optimized hyperparameters to enhance accuracy and reduce training time. The project achieved a significant improvement in classification performance, reducing misclassification rates by 15%.",
+      projectDesc:
+        "Collaborated in a team of 4 to implement ensemble modeling with 20 models for dry bean classification. Optimized hyperparameters to enhance accuracy and reduce training time. The project achieved a significant improvement in classification performance, reducing misclassification rates by 15%."
     },
     {
       projectName: "Web-Based House Sales Management System",
-      projectDesc: "Developed a real estate platform managing 100+ properties with a robust database architecture. Implemented dynamic listings, advanced filtering, and automated workflows, improving search efficiency by 30%. Optimized system performance, ensuring seamless user experience.",
+      projectDesc:
+        "Developed a real estate platform managing 100+ properties with a robust database architecture. Implemented dynamic listings, advanced filtering, and automated workflows, improving search efficiency by 30%. Optimized system performance, ensuring seamless user experience."
     }
-      
   ],
   display: true // Set false to hide this section, defaults to true
 };
