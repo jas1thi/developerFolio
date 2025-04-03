@@ -161,21 +161,21 @@ const workExperience = {
       company: "University of Houston",
       companylogo: require("./assets/images/uhLogo.png"),
       date: "Jan 2023 – Dec 2024",
-      desc: "Designed scalable data pipelines using Python and AWS, improving efficiency by 25%. Developed predictive models for student success initiatives, boosting accuracy by 15%."
+      desc: "Conducted research on ScholarsDB, optimizing database processes for various projects. Assisted in Full Stack curriculum design, grading, and guided 100+ students in SQL, Text Mining, and Python programming."
     },
     {
       role: "Cloud Data Engineer",
       company: "Capgemini",
       companylogo: require("./assets/images/capgLogo.png"),
       date: "Mar 2022 – Dec 2022",
-      desc: "Built ETL pipelines with AWS Glue, Python, and Apache Spark, improving data processing efficiency by 30%. Designed AWS-based data lakes for optimized data storage and querying, reducing query execution time by 25%."
+      desc: "Optimized SQL queries and ETL processes for financial modeling, improving data retrieval efficiency by 30%. Utilized AWS services for enhanced data storage, retrieval, and analytics."
     },
     {
       role: "Data Analyst Intern",
       company: "Virtusa",
       companylogo: require("./assets/images/virtusaLogo.png"),
       date: "Oct 2021 – Mar 2022",
-      desc: "Performed market basket analysis using SQL and Python, increasing sales performance by 25%. Created interactive dashboards in Tableau for marketing insights, improving campaign ROI by 20%."
+      desc: "Streamlined organ donor data analysis with SQL and Python, improving data accuracy. Automated data collection, reducing processing time by 20%, and created Tableau dashboards for improved donation outreach."
     }
   ]
 };
