@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/developerFolio/static/css/main.a9e70a08.css",
+    "main.js": "/developerFolio/static/js/main.5c2b941d.js",
+    "static/css/487.bb36206c.chunk.css": "/developerFolio/static/css/487.bb36206c.chunk.css",
+    "static/js/487.2ed0bf94.chunk.js": "/developerFolio/static/js/487.2ed0bf94.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/developerFolio/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.9bdcab81.chunk.js": "/developerFolio/static/js/990.9bdcab81.chunk.js",
+    "static/media/jaswanthi.png": "/developerFolio/static/media/jaswanthi.882e5ab48a5385b9fdbd.png",
+    "static/media/uhLogo.png": "/developerFolio/static/media/uhLogo.0c6b1c519de5e1a59c83.png",
+    "static/media/Montserrat-Regular.ttf": "/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/resume.pdf": "/developerFolio/static/media/resume.f5e555d3ecc3c64cb85d.pdf",
+    "static/media/awsLogo.png": "/developerFolio/static/media/awsLogo.850296a094250f4a242e.png",
+    "static/media/capgLogo.png": "/developerFolio/static/media/capgLogo.877d10e48e9846715aa1.png",
+    "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/fccLogo.png": "/developerFolio/static/media/fccLogo.bbb5d969bd29770b8885.png",
+    "static/media/iareLogo.png": "/developerFolio/static/media/iareLogo.894746154eab35efb5c5.png",
+    "static/media/skill.svg": "/developerFolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/developerFolio/index.html",
+    "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.a9e70a08.css.map": "/developerFolio/static/css/main.a9e70a08.css.map",
+    "main.5c2b941d.js.map": "/developerFolio/static/js/main.5c2b941d.js.map",
+    "487.bb36206c.chunk.css.map": "/developerFolio/static/css/487.bb36206c.chunk.css.map",
+    "487.2ed0bf94.chunk.js.map": "/developerFolio/static/js/487.2ed0bf94.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/developerFolio/static/css/990.c6a7ee28.chunk.css.map",
+    "990.9bdcab81.chunk.js.map": "/developerFolio/static/js/990.9bdcab81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9e70a08.css",
+    "static/js/main.5c2b941d.js"
+  ]
+}
