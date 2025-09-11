@@ -7,6 +7,7 @@
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
+  cursor: pointer;
 }
 .meter > span {
   display: block;
@@ -18,6 +19,25 @@
   background-color: $progressBarSpanBG;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.meter:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 1000;
+  pointer-events: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 .skill {
   line-height: 3.5vw;

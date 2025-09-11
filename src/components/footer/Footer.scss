@@ -3,10 +3,26 @@
 .footer-text {
   text-align: center;
   color: $subTitle !important;
+  font-size: 14px;
+  margin: 0 0 0.5rem 0;
+  font-weight: 500;
+}
+
+.footer-subtext {
+  text-align: center;
+  color: $subTitle !important;
+  font-size: 12px;
+  margin: 0;
+  opacity: 0.8;
+  font-style: italic;
 }
 
 .dark-mode {
   color: $textColorDark !important;
+}
+
+.dark-mode.footer-subtext {
+  color: rgba(255, 255, 255, 0.6) !important;
 }
 
 .footer-div {

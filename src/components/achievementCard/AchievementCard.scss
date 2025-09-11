@@ -55,7 +55,8 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.certificate-card-footer span.certificate-tag {
+.certificate-card-footer span.certificate-tag,
+.certificate-card-footer a.certificate-tag {
   background: $buttonColor;
   color: $lightBackground3;
   vertical-align: middle;
@@ -71,7 +72,14 @@
   padding: 0 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-span.certificate-tag:hover {
+
+.certificate-card-footer span.certificate-tag:hover,
+.certificate-card-footer a.certificate-tag:hover {
   background: $buttonHover;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

@@ -3,12 +3,8 @@ import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
   function openUrlInNewTab(url, name) {
-    if (!url) {
-      console.log(`URL for ${name} not found`);
-      return;
-    }
-    var win = window.open(url, "_blank");
-    win.focus();
+    console.log(`Opening: ${url}`);
+    window.open(url, "_blank", "noopener,noreferrer");
   }
 
   return (
@@ -29,19 +25,26 @@ export default function AchievementCard({cardInfo, isDark}) {
         </p>
       </div>
       <div className="certificate-card-footer">
-        {cardInfo.footer.map((v, i) => {
+        {cardInfo.footer && cardInfo.footer.length > 0 ? cardInfo.footer.map((v, i) => {
           return (
-            <span
+            <a
               key={i}
+              href={v.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className={
                 isDark ? "dark-mode certificate-tag" : "certificate-tag"
               }
-              onClick={() => openUrlInNewTab(v.url, v.name)}
+              style={{ cursor: 'pointer', textDecoration: 'none' }}
             >
               {v.name}
-            </span>
+            </a>
           );
-        })}
+        }) : (
+          <span className={isDark ? "dark-mode certificate-tag" : "certificate-tag"}>
+            No Link Available
+          </span>
+        )}
       </div>
     </div>
   );

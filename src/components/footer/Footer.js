@@ -9,19 +9,12 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
-        {/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by DeveloperFolio Team")}
-        </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme by{" "}
-          <a
-            href="https://github.com/saadpasta/developerFolio"
-            target="_blank"
-            rel="noreferrer"
-          >
-            developerFolio
-          </a>
-        </p> */}
+          © 2025 Jaswanthi Boyapati | Data Science & AI Professional | Houston, TX
+        </p>
+        <p className={isDark ? "dark-mode footer-subtext" : "footer-subtext"}>
+          Building intelligent solutions for tomorrow's challenges
+        </p>
       </div>
     </Fade>
   );

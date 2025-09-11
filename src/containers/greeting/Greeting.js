@@ -53,14 +53,13 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
+            <div className="profile-container">
               <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
-              ></img>
-            )}
+                alt="Jaswanthi Boyapati"
+                src={require("../../assets/images/jaswanthi.png")}
+                className="profile-photo"
+              />
+            </div>
           </div>
         </div>
       </div>

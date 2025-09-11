@@ -23,7 +23,7 @@ const greeting = {
   username: "Jaswanthi Boyapati",
   title: "Hi, I'm Jaswanthi",
   subTitle: emoji(
-    " Data Science professional with expertise in analytics and cloud architecture. Skilled in building ETL pipelines and delivering actionable insights using Python, SQL, and AWS. MS in Data Science, looking for opportunities in cross functional teams. "
+    " Data Science professional with expertise in analytics and cloud architecture. Skilled in building ETL pipelines and delivering actionable insights using Python, SQL, and AWS. Specializing in AI-powered solutions and machine learning models for business automation. MS in Data Science, looking for opportunities in cross functional teams. "
   ),
   resumeLink:
     "https://drive.google.com/file/d/13ikKkU-WILkzHc3c3zWqnAzn4lvnTvDu/view?usp=sharing", // Set to empty to hide the button
@@ -48,9 +48,12 @@ const skillsSection = {
   subTitle:
     "I play with data, build cool dashboards, and optimize cloud pipelines!",
   skills: [
-    emoji("⚡Building robust ETL pipelines with AWS and Python "),
-    emoji("⚡  Designing and deploying scalable cloud-based storage solutions"),
-    emoji("⚡ Creating predictive models and analytics dashboards")
+    emoji("⚡ Building enterprise-grade ETL pipelines processing 1M+ records daily"),
+    emoji("⚡ Designing cloud-native data architectures with 99.9% uptime"),
+    emoji("⚡ Creating interactive dashboards that increased business efficiency by 40%"),
+    emoji("⚡ Developing ML models with 95%+ accuracy for predictive analytics"),
+    emoji("⚡ Optimizing database queries reducing processing time by 60%"),
+    emoji("⚡ Implementing CI/CD pipelines for automated data workflows")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -63,6 +66,9 @@ https://fontawesome.com/icons?d=gallery */
     {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
     {skillName: "Terraform", fontAwesomeClassname: "fas fa-cloud"},
     {skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-line"},
+    {skillName: "Apache Airflow", fontAwesomeClassname: "fas fa-wind"},
+    {skillName: "Apache Kafka", fontAwesomeClassname: "fas fa-stream"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"},
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -71,7 +77,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -146,6 +151,10 @@ const techStack = {
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "AI",
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -157,10 +166,17 @@ const workExperience = {
   display: true,
   experience: [
     {
+      role: "AI Engineer",
+      company: "Libsys",
+      companylogo: require("./assets/images/libsysLogo.jpg"),
+      date: "Jan 2025 – Present",
+      desc: "Building AI-powered workflow automation solutions to streamline business processes and enhance operational efficiency."
+    },
+    {
       role: "Research Assistant",
       company: "University of Houston",
       companylogo: require("./assets/images/uhLogo.png"),
-      date: "Jan 2023 – Dec 2024",
+      date: "Jan 2023 – May 2025",
       desc: "Conducted research on ScholarsDB, optimizing database processes for various projects. Assisted in Full Stack curriculum design, grading, and guided 100+ students in SQL, Text Mining, and Python programming."
     },
     {
@@ -205,7 +221,7 @@ const achievementSection = {
       imageAlt: "AWS Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "🔗 View Certificate",
           url: "https://www.credly.com/badges/fd51bf6b-ae16-42df-a954-9b1363a31508/linked_in?t=sp4gzs"
         }
       ]
@@ -218,7 +234,7 @@ const achievementSection = {
       imageAlt: "Infosys Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "🔗 View Certificate",
           url: "https://infytq.onwingspan.com/public-assets/Infosys-Certified-Software-Programmer_2022/f194fc2e-2d83-4006-82f7-9f14740212ab.pdf"
         }
       ]
@@ -232,7 +248,7 @@ const achievementSection = {
       imageAlt: "Infosys Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "🔗 View Certificate",
           url: "https://www.coursera.org/account/accomplishments/verify/VLWAN6TFWG2H"
         }
       ]
@@ -246,7 +262,7 @@ const achievementSection = {
       imageAlt: "Frecode camp Logo",
       footerLink: [
         {
-          name: "Certification",
+          name: "🔗 View Certificate",
           url: "https://www.coursera.org/account/accomplishments/verify/VLWAN6TFWG2H"
         }
       ]
@@ -262,9 +278,9 @@ const bigProjects = {
   subtitle: "Includes Course Curriculum:)",
   projects: [
     {
-      projectName: "Topic Modeling",
+      projectName: "AI-Powered Recruitment System",
       projectDesc:
-        "Developed an LDA model to analyze 1,620 newspaper articles, optimizing perplexity and coherence scores to extract key themes. Applied text preprocessing techniques, including tokenization, stopword removal, and TF-IDF vectorization, to enhance model performance by providing insights into emerging trends in media."
+        "Developed an AI-powered recruitment and sourcing model to automate candidate search and classification from platforms like LinkedIn, Dice, Monster using LLMs, embedding models, and filtering logic."
     },
     {
       projectName: "Three-Tier VPC Deployment",
