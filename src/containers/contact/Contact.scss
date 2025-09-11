@@ -25,9 +25,21 @@
   color: $textColorDark !important;
 }
 
+.dark-mode .contact-heading {
+  color: $textColorDark !important;
+}
+
+.contact-heading {
+  color: $titleColor !important;
+}
+
 .contact-subtitle {
   font-size: 30px;
   line-height: 40px;
+  color: $subTitle;
+}
+
+.dark-mode .contact-subtitle {
   color: $subTitle;
 }
 
@@ -66,6 +78,14 @@
   word-break: break-all;
 }
 
+.dark-mode .detail-value {
+  color: $textColorDark;
+}
+
+.detail-value {
+  color: $textColor;
+}
+
 .contact-animation {
   margin-top: 30px;
   display: flex;
@@ -91,6 +111,16 @@
   transition: all 0.3s ease;
 }
 
+.dark-mode .contact-form-container {
+  background: $darkBackground;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contact-form-container {
+  background: $lightBackground1;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .contact-form-container:hover {
   box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.4);
 }
@@ -102,6 +132,14 @@
   margin-bottom: 20px;
   text-align: center;
   line-height: 24px;
+}
+
+.dark-mode .form-title {
+  color: $textColorDark;
+}
+
+.form-title {
+  color: $titleColor;
 }
 
 .contact-form {
@@ -125,6 +163,14 @@
   letter-spacing: 0.5px;
 }
 
+.dark-mode .form-label {
+  color: $textColorDark;
+}
+
+.form-label {
+  color: $titleColor;
+}
+
 /* MASSIVE INPUTS - Dark Theme */
 .form-input {
   width: 100% !important;
@@ -145,16 +191,44 @@
   transition: all 0.3s ease !important;
 }
 
+.dark-mode .form-input {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: $textColorDark !important;
+}
+
+.form-input {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: $textColor !important;
+}
+
 .form-input:focus {
   border-color: $buttonColor !important;
   box-shadow: 0 0 0 3px rgba(85, 25, 139, 0.2) !important;
   background: rgba(255, 255, 255, 0.08) !important;
 }
 
+.dark-mode .form-input:focus {
+  background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.form-input:focus {
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
 .form-input::placeholder {
   color: rgba(255, 255, 255, 0.6) !important;
   font-size: 20px !important;
   font-weight: 400 !important;
+}
+
+.dark-mode .form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.form-input::placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .form-textarea {
@@ -177,16 +251,44 @@
   transition: all 0.3s ease !important;
 }
 
+.dark-mode .form-textarea {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: $textColorDark !important;
+}
+
+.form-textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: $textColor !important;
+}
+
 .form-textarea:focus {
   border-color: $buttonColor !important;
   box-shadow: 0 0 0 3px rgba(85, 25, 139, 0.2) !important;
   background: rgba(255, 255, 255, 0.08) !important;
 }
 
+.dark-mode .form-textarea:focus {
+  background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.form-textarea:focus {
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
 .form-textarea::placeholder {
   color: rgba(255, 255, 255, 0.6) !important;
   font-size: 20px !important;
   font-weight: 400 !important;
+}
+
+.dark-mode .form-textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.form-textarea::placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* FORCE OVERRIDE EVERYTHING - Dark Theme */
@@ -210,6 +312,20 @@ input[type="email"] {
   transition: all 0.3s ease !important;
 }
 
+.dark-mode input[type="text"],
+.dark-mode input[type="email"] {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: $textColorDark !important;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: $textColor !important;
+}
+
 textarea {
   width: 100% !important;
   padding: 30px 25px !important;
@@ -228,6 +344,18 @@ textarea {
   line-height: 1.2 !important;
   display: block !important;
   transition: all 0.3s ease !important;
+}
+
+.dark-mode textarea {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: rgba(255, 255, 255, 0.05) !important;
+  color: $textColorDark !important;
+}
+
+textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  background: rgba(0, 0, 0, 0.05) !important;
+  color: $textColor !important;
 }
 
 .submit-button {

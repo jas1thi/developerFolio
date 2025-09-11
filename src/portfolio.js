@@ -168,8 +168,8 @@ const workExperience = {
     {
       role: "AI Engineer",
       company: "Libsys",
-      companylogo: require("./assets/images/libsysLogo.jpg"),
-      date: "Jan 2025 – Present",
+      companylogo: require("./assets/images/libsysLogo.png"),
+      date: "Aug 2025 – Present",
       desc: "Building AI-powered workflow automation solutions to streamline business processes and enhance operational efficiency."
     },
     {
