@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.c67ab30f.css",
-    "main.js": "/developerFolio/static/js/main.71b4aecc.js",
+    "main.js": "/developerFolio/static/js/main.6d64fa58.js",
     "static/css/487.db35dab1.chunk.css": "/developerFolio/static/css/487.db35dab1.chunk.css",
     "static/js/487.2ed0bf94.chunk.js": "/developerFolio/static/js/487.2ed0bf94.chunk.js",
     "static/css/990.650539f8.chunk.css": "/developerFolio/static/css/990.650539f8.chunk.css",
@@ -12,8 +12,8 @@
     "static/media/resume.pdf": "/developerFolio/static/media/resume.3bf344bb44eba830c3f0.pdf",
     "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/awsLogo.png": "/developerFolio/static/media/awsLogo.850296a094250f4a242e.png",
-    "static/media/allstateLogo.png": "/developerFolio/static/media/allstateLogo.316e37bb64912280090d.png",
     "static/media/capgLogo.png": "/developerFolio/static/media/capgLogo.877d10e48e9846715aa1.png",
+    "static/media/allstateLogo.png": "/developerFolio/static/media/allstateLogo.d8258be88f9d20eba9e9.png",
     "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/fccLogo.png": "/developerFolio/static/media/fccLogo.bbb5d969bd29770b8885.png",
     "static/media/iareLogo.png": "/developerFolio/static/media/iareLogo.894746154eab35efb5c5.png",
@@ -21,7 +21,7 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.c67ab30f.css.map": "/developerFolio/static/css/main.c67ab30f.css.map",
-    "main.71b4aecc.js.map": "/developerFolio/static/js/main.71b4aecc.js.map",
+    "main.6d64fa58.js.map": "/developerFolio/static/js/main.6d64fa58.js.map",
     "487.db35dab1.chunk.css.map": "/developerFolio/static/css/487.db35dab1.chunk.css.map",
     "487.2ed0bf94.chunk.js.map": "/developerFolio/static/js/487.2ed0bf94.chunk.js.map",
     "990.650539f8.chunk.css.map": "/developerFolio/static/css/990.650539f8.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.c67ab30f.css",
-    "static/js/main.71b4aecc.js"
+    "static/js/main.6d64fa58.js"
   ]
 }
